@@ -1,6 +1,7 @@
 # Test_Project
 
-This repo is used primarily for practice and testing of codes I am currently learning.
+This repo is used primarily for practicing I am currently learning.
+Adding pages, linking pages, adding content.
 
 - HTML
 - CSS
