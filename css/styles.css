@@ -9,13 +9,13 @@ header {
 }
 
 header > image {
-    width: 100%;
-    height: 200px;
+    width: 50%;
+    height: 50%;
 }
 
 header > figure > image {
     width: 100%;
-    height: auto;
+    height: 20%;
 }
 
 nav {
@@ -24,5 +24,94 @@ nav {
 
 nav > a {
     color: black;
+    font-weight: bold;
     font-size: 20px;
+    padding: 10px 20px;
+    text-decoration:none;
+}
+
+/* anchor href hover */
+nav > a:hover {
+    color: aqua;
+}
+
+.mypic {
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+}
+
+/* class headshot */
+.headshot {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 2px;
+}
+
+/* page content styling*/
+.pagecontent {
+    width: 70%;
+    margin: auto;
+}
+
+.pagecontent > article > p {
+    color: aqua;
+    text-align: justify;
+    border: 10px solid black;
+    padding: 50px;
+}
+
+.list {
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contactimage {
+    width: 10%;
+    height: 10%;
+}
+
+/* contact page form*/
+.contact {
+    font-size: 1.5em;
+    border: 5px solid black;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5%;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: rgb(26, 187, 75);
+    color: cornsilk;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: rgb(14, 168, 52);
+}
+
+footer {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 1em;
 }
